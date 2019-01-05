@@ -7,7 +7,11 @@ while i > 0:
 		break #逃出迴圈
 	else:
 		i = i - 1
-		print('密碼錯誤!, 還有', i , '次機會')
+		print('密碼錯誤!')
+		if i > 0:
+			print(' 還有', i , '次機會')
+		else:
+			print('沒有機會嘗試了! 要鎖帳號了')
 	
 
  
